@@ -1,0 +1,225 @@
+body {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+
+/**************** Grid *****************/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+
+/**************** Header *****************/
+
+header {
+    height: 800px;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Montserrat';
+    padding: 30px 40px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav {
+    float: left;
+    padding: 66px 40px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    ;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding-left: 50px;
+}
+
+.page-headline {
+    padding-top: 200px;
+    width: 900px;
+    font-family: 'Montserrat';
+    color: white;
+    margin-left: 190px;
+}
+
+.page-headline h2 {
+    font-weight: 700;
+    font-size: 95px;
+    line-height: 22px;
+    text-transform: uppercase;
+    clear: both;
+}
+
+.page-headline h3 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: -45px;
+    margin-left: 10px;
+}
+
+
+/**************** about *****************/
+
+#about {
+    height: 800px;
+}
+
+#about .full-width {
+    padding: 150px 40px;
+}
+
+#about h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+#about p {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+}
+
+#about .half-width p {
+    padding-right: 20px;
+}
+
+#about .half-width img {}
+
+#about-img {
+    margin-left: 50px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+.about-span {
+  font-weight: 600;
+}
+
+
+/*
+Continue Here!
+*/
+
+
+/**************** Skills *****************/
+
+#my-skills {
+    height: 800px;
+    background-color: #91bcb4;
+}
+
+#my-skills .full-width {
+    padding-top: 150px;
+}
+
+#my-skills h3 {
+    text-align: center;
+    font-size: 33px;
+    text-transform: capitalize;
+    
+}
+
+#my-skills p {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+}
+
+#my-skills img {
+    padding-bottom: 30px;
+    padding-left: 130px;
+}
+
+
+/**************** Work *****************/
+
+#work {
+    height: 800px;
+}
+
+#work .full-width {
+    padding: 150px;
+}
+
+#work h3 {
+    text-align: center;
+    font-size: 33px;
+    text-transform: capitalize;
+}
+
+#work p {
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.75px;
+}
+
+#work img {
+    margin-bottom: 30px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+}
+
+
+/**************** footer *****************/
+
+footer {
+    height: 800px;
+    background-color: #e63946;
+}
+
+footer .full-width {
+    padding: 200px;
+}
+
+footer .half-width ul li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+footer h2 {
+    font-size: 80px;
+    font-weight: 200;
+    text-transform: capitalize;
+
+}
+
+footer h3 {
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: -20px;
+}
+
+footer li img {
+    padding-right: 10px;
+}
