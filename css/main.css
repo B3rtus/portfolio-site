@@ -58,16 +58,16 @@ nav ul li a {
 }
 
 .page-headline {
-    padding-top: 200px;
+    padding-top: 250px;
     width: 900px;
     font-family: 'Montserrat';
     color: white;
-    margin-left: 190px;
+    margin-left: 90px;
 }
 
 .page-headline h2 {
     font-weight: 700;
-    font-size: 95px;
+    font-size: 100px;
     line-height: 22px;
     text-transform: uppercase;
     clear: both;
@@ -140,7 +140,7 @@ Continue Here!
     text-align: center;
     font-size: 33px;
     text-transform: capitalize;
-    
+
 }
 
 #my-skills p {
